@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Criar Conta - Turismo Angola</title>
+    <link rel="stylesheet" href="css/register.css" />
+  </head>
+  <body>
+    <section class="login-section">
+      <div class="login-container">
+        <!-- FORM REGISTRO -->
+        <form id="registerForm">
+          <h2>Criar Conta</h2>
+          <input
+            type="text"
+            id="registerNome"
+            placeholder="Nome completo"
+            required
+          />
+          <input type="email" id="registerEmail" placeholder="Email" required />
+
+          <input
+            type="password"
+            id="registerPassword"
+            placeholder="Senha"
+            required
+          />
+          <button type="submit">Registrar</button>
+        </form>
+      </div>
+    </section>
+    <script type="module" src="./js/register.js"></script>
+  </body>
+</html>

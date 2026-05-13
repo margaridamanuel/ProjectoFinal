@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - Turismo Angola</title>
+    <link rel="stylesheet" href="css/login.css" />
+  </head>
+  <body>
+    <section class="login-section">
+      <div class="login-container">
+        <!-- FORM LOGIN -->
+        <form id="loginForm">
+          <h2>Login</h2>
+          <input type="email" id="loginEmail" placeholder="Email" required />
+          <input
+            type="password"
+            id="loginPassword"
+            placeholder="Senha"
+            required
+          />
+          <button type="submit">Entrar</button>
+          <p>
+            Não tem conta?
+            <a href="register.html" id="showRegister">Criar Conta</a>
+          </p>
+        </form>
+      </div>
+    </section>
+
+    <script type="module" src="js/login.js"></script>
+  </body>
+</html>
